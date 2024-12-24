@@ -1,28 +1,16 @@
 {
-    "manifest_version": 3,
-    "name": "Creddy",
-    "version": "1.0",
-    "description": "A Chrome extension with a stylish purple-to-green gradient navbar featuring the name and icon on the left.",
-    "icons": {
+  "manifest_version": 3,
+  "name": "Creddy - Credit Risk Management",
+  "version": "1.0",
+  "description": "A Chrome extension for assessing credit risk.",
+  "icons": {
       "16": "icons/icon16.png",
       "48": "icons/icon48.png",
       "128": "icons/icon128.png"
-    },
-    "action": {
+  },
+  "action": {
       "default_popup": "popup.html",
       "default_icon": "icons/icon48.png"
-    },
-    "permissions": [],
-    "host_permissions": [],
-    "background": {
-      "service_worker": "background.js"
-    },
-    "content_scripts": [
-      {
-        "matches": ["<all_urls>"],
-        "css": ["styles.css"],
-        "js": ["content.js"]
-      }
-    ]
-  }
-  
+  },
+  "permissions": []
+}

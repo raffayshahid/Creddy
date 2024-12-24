@@ -1,0 +1,40 @@
+/* Set a custom width for the popup */
+body {
+  width: 300px; /* Increase this value to make it wider */
+  height: auto; /* Optional: Adjust height as needed */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #004aad;
+}
+
+.text-muted {
+  font-size: 0.9rem;
+}
+
+button.btn-primary {
+  background-color: #004aad;
+  border: none;
+}
+
+button.btn-primary:hover {
+  background-color: #003580;
+}
+
+footer button {
+  font-size: 1.2rem;
+}
+
+#companyList .card {
+  margin-bottom: 15px;
+}
+
+.card img {
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
