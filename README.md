@@ -51,6 +51,3 @@ Creddy is a Chrome extension designed to help users assess the credit risk of co
 
 This project is licensed under the [MIT License](LICENSE).
 
----
-
-Feel free to customize the **README.md** file as needed for your specific use case!
