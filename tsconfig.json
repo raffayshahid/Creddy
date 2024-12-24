@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "module": "ESNext",
+      "target": "ES6",
+      "strict": true,
+      "types": ["chrome"]
+    },
+    "include": ["src/**/*"]
+  }
